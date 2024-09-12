@@ -20,7 +20,7 @@ Patients with hepatitis have been continously increasing. An estimated 354 milli
 
 
 ## Dataset Information
-![Abraham](img/dataset_info)
+![Abraham](img/dataset_info.jpg)
 
     
 *Data Source:* https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/
