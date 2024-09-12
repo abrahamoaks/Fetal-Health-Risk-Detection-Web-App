@@ -140,7 +140,7 @@ Since this is a binary classification problem, I used the following metrics:
   - JavaScript 
 
 ## Data Source
-The dataset used in this project is sourced from the University of California Dataset archive and classified by expert Obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
+The dataset was sourced from the University of California Irvine dataset archive consisting of over 2126 Cardiotogram (CTGs) measurements of fetal heart rate (FHR) and uterine contraction (UC) features classified by expert obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
 
 
 ## Conclusion
