@@ -1,4 +1,4 @@
-# Fetal Health Risk Detection using Machine Learning with Flask Web App
+# Fetal Health Risk Detection using Machine Learning with Flask Web App -- Abraham Obianke 
 
 ![Abraham](img/Fetal_Demo.gif)
 
