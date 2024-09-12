@@ -107,8 +107,8 @@ Since this is a binary classification problem, I used the following metrics:
  + To make the model accessible to end-users, I have developed a user-friendly Flask web application. The Flask web app provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (Normal, Pathological or Suspected). A screenshot of the Flask web app is shown below;  
 
 
-![Flask App](static/fet_assess.jpg)
-![Flask App](static/fet_assess2.jpg)
+![Flask App](img/fet_assess.jpg)
+![Flask App](img/fet_assess2.jpg)
 
 
 ## Model Monitoring and Maintenance 
