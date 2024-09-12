@@ -20,7 +20,7 @@ According to the UNICEF, the neonatal period is the most vulnerable time for a c
 
 
 ## Dataset Information
-The dataset consists of measurements of fetal heart rate (FHR) and uterine contraction (UC) features on cardiotocograms classified by expert obstetricians.
+The dataset was sourced from the University of California Irvine dataset archive consisting of over 2126 Cardiotogram (CTGs) measurements of fetal heart rate (FHR) and uterine contraction (UC) features classified by expert obstetricians.
 ![Abraham](img/dataset_info.jpg)
 
     
