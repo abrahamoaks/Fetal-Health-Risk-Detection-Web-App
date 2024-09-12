@@ -24,7 +24,7 @@ The dataset was sourced from the University of California Irvine dataset archive
 ![Abraham](img/dataset_info.jpg)
 
     
-*Data Source:* [https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/](https://archive.ics.uci.edu/dataset/193/cardiotocography)
+*Data Source:*(https://archive.ics.uci.edu/dataset/193/cardiotocography)
 
 
 ## Mapping Patient Problem to ML Problem
@@ -101,10 +101,10 @@ Since this is a binary classification problem, I used the following metrics:
 * **Accuracy score** - To evaluate the overall performance of the classification model.
 ![Abraham](img/classification_report.jpg)
 
-## Key Achievement(s)
+## Project Highlight(s)
  + Model achieved an overall performance accuracy of >90% using K-Nearest Neigbour Machine Learning Algorithm.
 
-## Business Solution 
+## Data-Driven Solution 
   ### Deploying the Model with a Flask Web App
  + To make the model accessible to end-users, I have developed a user-friendly Flask web application. The Flask web app provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (Normal, Pathological or Suspected). A screenshot of the Flask web app is shown below;  
 
@@ -133,7 +133,7 @@ Since this is a binary classification problem, I used the following metrics:
 - Comet ML
 
 ## Data Source
-The dataset used in this project is sourced from the University of California Dataset archive and classified by expert Obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography)).
+The dataset used in this project is sourced from the University of California Dataset archive and classified by expert Obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
 
 
 ## Conclusion
@@ -141,3 +141,9 @@ As an AI Engineer and a medical student, I am deeply committed to the holistic w
 
 ## Contact
 I'm Abraham Obianke. For any inquiries, feedback or collaborations feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+
+### References 
+1. Healthline (https://www.healthline.com/health/pregnancy/risk-factors)
+2. University of California Irvine dataset archive (https://archive.ics.uci.edu/dataset/193/cardiotocography)
+2. The United Nations Children's Fund (UNICEF) (https://data.unicef.org/topic/child-survival/neonatal-mortality/)
+
