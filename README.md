@@ -104,9 +104,9 @@ Since this is a binary classification problem, I used the following metrics:
 ![Abraham](img/classification_report.jpg)
 
 ## Project Highlight(s)
-✅Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
-✅Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
-✅Model operationalized with a user friendly flask web application 
+✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
+✅ Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
+✅ Model operationalized with a user friendly flask web application 
 
 ## Data-Driven Solution 
   ### Deploying the Model with a Flask Web App
