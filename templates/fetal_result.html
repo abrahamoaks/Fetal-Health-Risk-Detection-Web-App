@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abraham | Report</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+    
+    
+    <style>
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            color: #5a5a5a;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+
+        nav {
+            font-family: sans-serif;
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+        }
+
+        .container {
+            max-width: 960px;
+        }
+
+        .pricing-header {
+            max-width: 700px;
+        }
+
+        .card-deck .card {
+            min-width: 220px;
+        }
+
+        .themed-container {
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: rgba(247, 7, 219, 0.187);
+            border: 1px solid  rgb(200, 20, 167);
+        }
+
+        .bg-blue {
+            background-color: rgb(200, 20, 167);
+        }
+
+        /* Center content vertically and horizontally */
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh; /* Adjust the height as needed */
+        }
+
+        /* Reduce spacing between button and content */
+        .center-content button {
+            margin-top: -130px; /* Adjust the margin to reduce spacing */
+        }
+
+        /* Style for the button container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: -130px;
+        }
+
+        /* Style for each button */
+        .button-container button {
+            margin: 0 10px; /* Add margin between the buttons */
+        }
+
+        /* Style for red text */
+        .red-text {
+            color: red;
+        }
+
+        /* Style for green text */
+        .green-text {
+            color: green;
+        }
+
+        /* Style for yellow text */
+        .yellow-text {
+            color: yellow;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-blue">
+            <a class="navbar-brand" href="#"><b>Abraham</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/fetal">Fetal Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="assess">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-5">Ai Report</h1>
+            <p class="lead">Please find below the Diagnosis Report</p>
+        </div>
+        <div class="container themed-container">
+            <!-- Prediction Text -->
+            <h1 style="text-align: center;" class="{% if prediction_text == 'Patient Health is Pathological' %}red-text{% elif prediction_text == 'Patient Health is Normal' %}green-text{% elif prediction_text == 'Patient Health is Suspicious' %}yellow-text{% endif %}">{{ prediction_text }}</h1>
+        </div>
+        <p style="text-align: center;">Click <a href="/">here</a> to learn more about fetal health</p>
+        <p style="text-align: center;">&copy;Abraham Obianke</p>
+    </div>
+
+    <!-- Centered Buttons -->
+    <div class="center-content button-container">
+        <button class="btn btn-primary btn-lg" id="download">Download Report (PDF)</button>
+        <br>      
+        <button class="btn btn-primary btn-lg"><a href="/hepatitis" style="color: white;">Go Back</a></button>
+    </div>
+
+    <footer class="col-12" style="color: white; background-color: rgb(200, 20, 167); position: absolute;">
+        <hr class="light"/>
+        <p>&copy;Abraham Obianke. abrahamoaks@gmail.com All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript code for downloading PDF -->
+    <script>
+        // JavaScript for downloading PDF
+        $(document).ready(function() {
+            $('#download').on('click', function() {
+                const invoice = document.getElementById("assess");
+                const opt = {
+                    margin: 1,
+                    filename: 'Diagnosis_Report.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2 },
+                    jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
+                };
+                html2pdf().from(invoice).set(opt).save();
+            });
+        });
+    </script>
+</body>
+</html>
