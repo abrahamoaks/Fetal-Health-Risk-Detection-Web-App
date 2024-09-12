@@ -120,17 +120,24 @@ Since this is a binary classification problem, I used the following metrics:
 
 ## Technologies Used
 - Python 
-- VS Code
-- AWS Sagemaker 
-- Flask 
-- Scikit-Learn
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- Lime
-- Joblib
-- Comet ML
+- Coding Tools
+   - VS Code
+   - Lightning.ai
+- ML Libraries 
+  - Scikit-Learn
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - Seaborn
+  - Lime
+  - Joblib
+  - Comet ML
+- Web App Frameworks 
+  - Flask
+  - Bootstrap 
+  - HTML
+  - CSS
+  - JavaScript 
 
 ## Data Source
 The dataset used in this project is sourced from the University of California Dataset archive and classified by expert Obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
