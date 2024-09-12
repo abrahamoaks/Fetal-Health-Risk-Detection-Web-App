@@ -1,35 +1,36 @@
-# Hepatitis Mortality Prediction using Machine Learning with Flask Web App
+# Fetal Health Risk Detection using Machine Learning with Flask Web App
 
 ## Introduction 
-What is hepatitis?
-Hepatitis is an inflammation of the liver. Inflammation is a swelling that happens when tissues of the body are injured or infected. It can damage your liver. This swelling and damage can affect how well your liver functions.
+What is fetal health risk?
+Fetal health risk refers to any condition or factor that could potentially harm a developing fetus during pregnancy. These risks can lead to complications such as birth defects, developmental delays, preterm birth, or even miscarriage. 
 
-What causes hepatitis?
-Hepatitis can be caused by excessive alcohol consumption, toxins, certain medications, and certain medical conditions.
+What can lead to fetal health risk? fetal health problems can be caused by maternal age, lifestyle choices, pre-existing medical conditions, pregnancy complications and structural problems.
 
-*Source:https://medlineplus.gov/hepatitis.html*
+*Source(https://www.healthline.com/health/pregnancy/risk-factors)*
 
 ## Patient Problem
 ### Problem Context
-Patients with hepatitis have been continously increasing. An estimated 354 million people worldwide live with hepatitis B or C, and for most, testing and treatment remain beyond reach. Early diagnosis and treatment of chronic hepatitis may prevent complications such as cirrhosis (scarring of the liver), liver failure and liver cancer.
+According to the UNICEF, the neonatal period is the most vulnerable time for a child. Globally, 2.3 million children died in the first month of life in 2022 – approximately 6,300 neonatal deaths every day.
 
-*Source:https://who.int/health-topics/hepatitis#tab=tab_1*
+
+*Source: (https://data.unicef.org/topic/child-survival/neonatal-mortality/)*
 
 ## Objective(s)
-- My main aim in this project is to use machine learning to classify and predict fetal health which in turn can prevent fetal and maternal mortality. I intend to use classification algorithms to achieve the lowest error in prediction.
+- My main aim in this project is to use machine learning to detect fetal health risks which in turn can prevent fetal and maternal mortality. I intend to use classification algorithms to achieve the lowest error in prediction.
 
 
 ## Dataset Information
+The dataset consists of measurements of fetal heart rate (FHR) and uterine contraction (UC) features on cardiotocograms classified by expert obstetricians.
 ![Abraham](img/dataset_info.jpg)
 
     
-*Data Source:* https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/
+*Data Source:* [https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/](https://archive.ics.uci.edu/dataset/193/cardiotocography)
 
 
 ## Mapping Patient Problem to ML Problem
 
 ### Type of Machine Learning Problem
-+ It is a binary classification problem, where given the above set of features, we need to classify and predict fetal health risks.
++ It is a binary classification problem, where given the above set of features, I need to classify and predict fetal health risks.
 
 ## Data Analysis Workflow
 - Data Collection
@@ -63,7 +64,7 @@ Patients with hepatitis have been continously increasing. An estimated 354 milli
 
 
 ### Observations
-1. From the pathological records, the features of fetal movements, uterine conttractions, and the interval ranfe of heart rate values strongly correlated with deceleration rates in higher proportionals.
+1. From the pathological records, the features of fetal movements, uterine conttractions, and the interval range of heart rate values strongly correlated with deceleration rates in higher proportionals.
 
 2. Among the suspect and normal records, the plots representing the increased accelerations but not deceleration. Therefore, both pathological and suspect records achieving more decelerations.
 
@@ -82,6 +83,7 @@ Patients with hepatitis have been continously increasing. An estimated 354 milli
     - Support Vector Machine
     - Linear Discriminant Analysis
 + Serialize (Save Model)
+
 ![Abraham](img/algo.png)
 ![Abraham](img/algo2.jpg)
 
@@ -100,7 +102,7 @@ Since this is a binary classification problem, I used the following metrics:
 ![Abraham](img/classification_report.jpg)
 
 ## Key Achievement(s)
- + Model achieved an overall performance accuracy of >92% using K-Nearest Neigbour Machine Learning Algorithm.
+ + Model achieved an overall performance accuracy of >90% using K-Nearest Neigbour Machine Learning Algorithm.
 
 ## Business Solution 
   ### Deploying the Model with a Flask Web App
@@ -131,12 +133,11 @@ Since this is a binary classification problem, I used the following metrics:
 - Comet ML
 
 ## Data Source
-The dataset used in this project is sourced from the University of California Dataset Archive (https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/).
+The dataset used in this project is sourced from the University of California Dataset archive and classified by expert Obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography)).
 
 
 ## Conclusion
-This project aims to provide insights into fetal health prediction using machine learning techniques. By analyzing relevant parameters, interpreting the prediction of the black-box model to foster trust and deploying the model with a user-friendly Flask web application, I aim to make the predictive model accessible to healthcare professionals and individuals interested in assessing fetal health risk aiding in early detection and preventive care.
-
+As an AI Engineer and a medical student, I am deeply committed to the holistic well-being of mothers and their children. This project reflects my dedication to working towards the 2030 UN SDG goal 3 of ending all preventable deaths under five years of age using machine learning techniques and a Data-Driven approach.
 
 ## Contact
-For any inquiries, feedback or collaboration please feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+I'm Abraham Obianke. For any inquiries, feedback or collaborations feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
