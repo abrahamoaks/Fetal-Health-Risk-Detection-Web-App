@@ -103,10 +103,6 @@ Since this is a binary classification problem, I used the following metrics:
 * **Accuracy score** - To evaluate the overall performance of the classification model.
 ![Abraham](img/classification_report.jpg)
 
-## Project Highlight(s)
-+ ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
-+ ✅ Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
-+ ✅ Model operationalized with a user friendly flask web application 
 
 ## Data-Driven Solution 
   ### Deploying the Model with a Flask Web App
@@ -141,7 +137,14 @@ Since this is a binary classification problem, I used the following metrics:
   - Bootstrap 
   - HTML
   - CSS
-  - JavaScript 
+  - JavaScript
+    
+ 
+  ## Project Highlight(s)
++ ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
++ ✅ Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
++ ✅ Model operationalized with a user friendly flask web application
+  
 
 ## Data Source
 The dataset was sourced from the University of California Irvine dataset archive consisting of over 2126 Cardiotogram (CTGs) measurements of fetal heart rate (FHR) and uterine contraction (UC) features classified by expert obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
