@@ -65,21 +65,16 @@ The dataset was sourced from the University of California Irvine dataset archive
 ![Abraham](img/linear.png)
 
 
-### Actionable Insights
-1. **Which metrics can we use together or drop to streamline fetal health monitoring?**
-   - Since `histogram_median` and `histogram_mode` give nearly identical information, the hospital can track only one of these metrics to save time and resources without sacrificing accuracy in fetal health assessments.
+### Actionable Insights 
+1. `histogram_median` and `histogram_mode` give nearly identical information, the hospital can track only one of these metrics to save time and resources without sacrificing accuracy in fetal health assessments.
 
-2. **What are the key warning signs for changes in fetal health?**
-   - The strong negative relationship between `histogram_mode` and `baseline_value` means that when one goes up and the other goes down, it could indicate important changes in fetal health. Doctors could prioritize this pattern as an early warning system.
+ 2. The strong negative relationship between `histogram_mode` and `baseline_value` means that when one goes up and the other goes down, it could indicate important changes in fetal health. Doctors could prioritize this pattern as an early warning system.
 
-3. **Do all monitored features influence each other?**
-   - No, some metrics like `fetal_movement` and `baseline_value` don’t influence each other much. This means they measure different aspects of fetal health, so a comprehensive monitoring system should track both for a full picture.
+3. Some metrics like `fetal_movement` and `baseline_value` don’t influence each other much. This means they measure different aspects of fetal health, so a comprehensive monitoring system should track both for a full picture.
 
-4. **How can we simplify data collection for efficiency?**
-   - The "histogram" metrics all provide similar insights, so the hospital could reduce the number of metrics it tracks by focusing on just one or two of these. This would make data collection quicker, reducing the workload for healthcare staff without losing crucial information.
+4.  The "histogram" metrics all provide similar insights, so the hospital could reduce the number of metrics it tracks by focusing on just one or two of these. This would make data collection quicker, reducing the workload for healthcare staff without losing crucial information.
 
-5. **Are there redundant measurements that might slow down decision-making?**
-   - Yes, multiple features provide overlapping information. Removing or combining these similar metrics will help doctors make faster, clearer decisions, which is critical in high-stress situations where fetal health is at risk.
+5. Multiple features provide overlapping information. Removing or combining these similar metrics will help doctors make faster, clearer decisions, which is critical in high-stress situations where fetal health is at risk.
 
 
 ## Model Building 
