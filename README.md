@@ -72,7 +72,7 @@ The dataset was sourced from the University of California Irvine dataset archive
 
 3. Some metrics like `fetal_movement` and `baseline_value` don’t influence each other much. This means they measure different aspects of fetal health, so a comprehensive monitoring system should track both for a full picture.
 
-4.  The "histogram" metrics all provide similar insights, so I could reduce the number of metrics it tracks by focusing on just one or two of these. This would make data collection quicker, reducing the workload for healthcare staff without losing important information.
+4.  The "histogram" metrics all provide similar insights, so I could reduce the number of metrics it tracks. This would make data collection quicker, reducing the workload for healthcare staff without losing important patient information.
 
 
 ## Model Building 
