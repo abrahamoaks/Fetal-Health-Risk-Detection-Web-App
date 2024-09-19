@@ -65,7 +65,7 @@ The dataset was sourced from the University of California Irvine dataset archive
 ![Abraham](img/linear.png)
 
 
-### Actionable Observations
+### Actionable Insights
 1. **Which metrics can we use together or drop to streamline fetal health monitoring?**
    - Since `histogram_median` and `histogram_mode` give nearly identical information, the hospital can track only one of these metrics to save time and resources without sacrificing accuracy in fetal health assessments.
 
