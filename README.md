@@ -66,15 +66,13 @@ The dataset was sourced from the University of California Irvine dataset archive
 
 
 ### Actionable Insights 
-1. `histogram_median` and `histogram_mode` give nearly identical information, the hospital can track only one of these metrics to save time and resources without sacrificing accuracy in fetal health assessments.
+1. `histogram_median` and `histogram_mode` give nearly identical information, I can track only one of these metrics to save time and resources without sacrificing accuracy in fetal health assessments.
 
- 2. The strong negative relationship between `histogram_mode` and `baseline_value` means that when one goes up and the other goes down, it could indicate important changes in fetal health. Doctors could prioritize this pattern as an early warning system.
+ 2. The strong negative relationship between `histogram_mode` and `baseline_value` means that when one goes up and the other goes down, it could indicate important changes in fetal health. I could prioritize this pattern as an early warning system.
 
 3. Some metrics like `fetal_movement` and `baseline_value` don’t influence each other much. This means they measure different aspects of fetal health, so a comprehensive monitoring system should track both for a full picture.
 
-4.  The "histogram" metrics all provide similar insights, so the hospital could reduce the number of metrics it tracks by focusing on just one or two of these. This would make data collection quicker, reducing the workload for healthcare staff without losing crucial information.
-
-5. Multiple features provide overlapping information. Removing or combining these similar metrics will help doctors make faster, clearer decisions, which is critical in high-stress situations where fetal health is at risk.
+4.  The "histogram" metrics all provide similar insights, so I could reduce the number of metrics it tracks by focusing on just one or two of these. This would make data collection quicker, reducing the workload for healthcare staff without losing important information.
 
 
 ## Model Building 
