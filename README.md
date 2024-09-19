@@ -119,6 +119,11 @@ Since this is a binary classification problem, I used the following metrics:
 ![Flask App](img/fet_assess.jpg)
 ![Flask App](img/fet_assess2.jpg)
 
+## Project Highlight(s)
++ ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
++ ✅ Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
++ ✅ Model operationalized with a user friendly flask web application
+  
 
 ## Model Monitoring and Maintenance 
 - I leveraged a robust cloud ML platform and implemented a quality control check, experiment tracking, model maintenance and model monitoring techniques to observe data drift and prevent performance degradation. This is to help ensure model fairness, improve model performance and maintain model reliability.
@@ -147,11 +152,6 @@ Since this is a binary classification problem, I used the following metrics:
   - JavaScript
     
  
-  ## Project Highlight(s)
-+ ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
-+ ✅ Model built on robust dataset classified & labelled by expert Obstetricians to ensure reliable and actionable prediction 
-+ ✅ Model operationalized with a user friendly flask web application
-  
 
 ## Data Source
 The dataset was sourced from the University of California Irvine dataset archive consisting of over 2126 Cardiotogram (CTGs) measurements of fetal heart rate (FHR) and uterine contraction (UC) features classified by expert obstetricians.(https://archive.ics.uci.edu/dataset/193/cardiotocography).
