@@ -1,6 +1,5 @@
 # Fetal Health Risk Detection using Machine Learning with Flask Web App -- Abraham Obianke 
 
-![Abraham](img/Fetal_Demo.gif)
 ![Abraham](img/1_20241121_055331_0000.png)
 
 ## Introduction 
@@ -106,12 +105,12 @@ Since this is a binary classification problem, I used the following metrics:
 
 
 ## Data-Driven Solution 
-  ### Deploying the Model with a Flask Web App
- + To make the model accessible to end-users, I have developed a user-friendly Flask web application. The Flask web app provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (Normal, Pathological or Suspected). A screenshot of the Flask web app is shown below;  
-
+  ### Deploying the Model with a Flask Web Application 
+ + To make the model accessible to end-users, I have developed a user-friendly Flask web application. The Flask web app provides a friendly user interface where users can input relevant parameters through a web form. Upon submission, the app processes the input data using the accurately trained cloud based machine learning model and provides the predicted outcome (Normal, Pathological or Suspected). A demo of the Flask web app is shown below;
 
 ![Flask App](img/fet_assess.jpg)
 ![Flask App](img/fet_assess2.jpg)
+![Abraham](img/Fetal_Demo.gif)
 
 ## Project Highlight(s)
 + ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
