@@ -127,7 +127,7 @@ Since this is a binary classification problem, I used the following metrics:
 ![Abraham](img/monitor.jpg)
 
 
-## Technologies Used
+## Tools Used
 - Python 
 - Coding Tools
    - VS Code
