@@ -112,7 +112,7 @@ Since this is a binary classification problem, I used the following metrics:
 ![Flask App](img/fet_assess2.jpg)
 ![Abraham](img/Fetal_Demo.gif)
 
-## Web App Status 
+### Web App Status 
 + Not yet deployed due to cost issues
 
 ## Project Highlight(s)
