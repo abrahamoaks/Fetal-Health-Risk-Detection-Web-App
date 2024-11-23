@@ -91,6 +91,7 @@ The dataset was sourced from the University of California Irvine dataset archive
 
 
 ## Model Interpretation
+I believe that Interpretable ML is key to Responsible AI 
  + I implemented explainable AI techniques using Decision Tree and model interpretation to understand the decisions made by the black-box machine learning model for individual patients. With this technique, healthcare professionals can gain insights into which features are most influential in predicting the patient's outcome (i.e., Normal, Suspected or Pathological). 
 ![Abraham](img/explainer.jpg)
 ![Abraham](img/decision_tree.png)
