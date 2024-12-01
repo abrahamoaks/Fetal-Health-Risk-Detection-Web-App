@@ -1,9 +1,5 @@
 # Fetal Health Risk Detection using Machine Learning with Flask Web App -- Abraham Obianke
 
-[![Demo Video](https://m.youtube.com/watch?v=sFx2qT50Y4U)
-
-https://m.youtube.com/watch?v=sFx2qT50Y4U
-
 ![Abraham](img/1_20241121_055331_0000.png)
 
 ## Introduction 
@@ -116,6 +112,7 @@ Since this is a binary classification problem, I used the following metrics:
 ![Flask App](img/fet_assess.jpg)
 ![Flask App](img/fet_assess2.jpg)
 ![Abraham](img/Fetal_Demo.gif)
+[![Demo Video on YouTube](https://m.youtube.com/watch?v=sFx2qT50Y4U)
 
 ### Web App Status 
 + Not yet deployed due to cost issues
