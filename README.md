@@ -112,7 +112,10 @@ Since this is a binary classification problem, I used the following metrics:
 ![Flask App](img/fet_assess.jpg)
 ![Flask App](img/fet_assess2.jpg)
 ![Abraham](img/Fetal_Demo.gif)
-[![Demo Video on YouTube](https://m.youtube.com/watch?v=sFx2qT50Y4U)
+[![ Click to Watch Demo Video on YouTube](https://m.youtube.com/watch?v=sFx2qT50Y4U)
+
+
+[![Video Title](https://img.youtube.com/vi/sFx2qT50Y4U/0.jpg)](https://www.youtube.com/watch?v=sFx2qT50Y4U)
 
 ### Web App Status 
 + Not yet deployed due to cost issues
