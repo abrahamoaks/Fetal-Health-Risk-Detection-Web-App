@@ -162,7 +162,7 @@ The dataset was sourced from the University of California Irvine dataset archive
 As an AI Engineer with a background in Medicine, I am deeply committed to the holistic well-being of mothers and their children. This project involving detecting fetal health risks reflects my dedication to working towards the 2030 United Nations Sustainable Development Goal 3 of ending all preventable deaths under five years of age using machine learning techniques and a Data-Driven approach.
 
 ## Contact
-I'm Abraham Obianke. For any inquiries, feedback or collaborations feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
+I'm **Abraham Obianke**. For any enquiries, feedbacks, partnerships or collaborations feel free to [Connect with me on LinkedIn](https://www.linkedin.com/in/abraham-obianke-269112197?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) or send me an Email via  [abrahamoaks@gmail.com](mailto:your_email@example.com).
 
 ### References 
 1. Healthline (https://www.healthline.com/health/pregnancy/risk-factors)
