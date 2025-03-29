@@ -118,7 +118,7 @@ Since this is a binary classification problem, I used the following metrics:
 
 
 ### Web App Status 
-+ Not yet deployed due to cost issues
++ Not yet deployed due to lack of funding.
 
 ## Project Highlight(s)
 + ✅ Model achieved an accuracy of >90% using K-Nearest Neighbor machine learning algorithm
